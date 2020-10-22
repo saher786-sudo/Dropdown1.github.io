@@ -1,0 +1,171 @@
+*
+
+{
+	margin: 0px;
+}
+
+body{
+	background: white;
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+	height: 60px;
+}
+.dropdown{
+	margin: 0 auto;
+}
+nav{
+	height: 60px;
+	background: black;
+	box-shadow: 0 10px 15px rgba(0,0,0,0,1);
+}
+.logo{
+	padding: 5px 0 0 80px;
+	width: 10px;
+	height: auto;
+}
+nav ul{
+	padding: 0px;
+	margin:0px;
+	float: right;
+	margin-right: 30px;
+}
+nav ul li{
+	background: black;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+}
+nav ul a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60p;
+	font-size:30px;
+}
+nav ul a: hover{
+	background: #fff;
+}
+nav ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+}
+nav ul li:hover > ul{
+	display: block;
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 150px;
+}
+.body{
+	padding: 0 20px;
+}
+
+.body p{
+	text-align: justify;
+}
+.outerbox{
+	width: 640px;
+	overflow: hidden;
+	margin: auto;
+
+}
+.myslider{
+	position: relative;
+	width: 640px;
+	animation-name: web;
+  	animation-duration: 20s;
+  	animation-iteration-count: infinite;
+}
+.myslider{
+	display: inline-flex;
+	object-fit: cover;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	
+}
+@keyframes web{
+	from{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+		left: -640px;
+	}
+	45%{
+		left: -640px;
+	}
+	50%{
+		left: -1280px;
+	}
+	70%{
+		left: -1280px;
+	}
+	75%{
+		left: -1890px;
+	}
+	95%{
+		left: -1890px;
+	}
+	100%{
+		left: -2560px;
+	}
+}
+
+footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: black;
+	color:white;
+	display: block;
+}
+.main-content{
+	display: block;
+}
+. main-content .box{
+	flex-basis: 50%;
+	padding: 10px 20px;
+}
+.box h2{
+	font-size: 1.125rem
+	font-weight:600;
+	text-transform: uppercase;
+}
+.box .content{
+	margin: 20px 0 0 0;
+}
+.left .content p{
+	text-align: justify;
+}
+.left .content .social{
+	margin: 20px 0 0 0;
+}
+.left .content .social a{
+	padding: 0 2px;
+}
+.left .content .social a span{
+	height: 40px;
+	width: 40px;
+	background: black;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 5px;
+	transition: 0 3s;
+}
+.left .content .social a span:hover{
+background: #f12020;
+
+}
